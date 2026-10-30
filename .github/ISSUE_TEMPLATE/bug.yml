@@ -6,7 +6,7 @@ body:
     attributes:
       value: |
         Thanks for reporting. Search the open issues first — if it's already there, add a 👍 instead.
-        Anything you put here is public. To send your project file privately, use **Help → Known issues → Report a bug** in the app.
+        Anything you put here is public — don't attach files you want to keep private.
   - type: dropdown
     id: area
     attributes:

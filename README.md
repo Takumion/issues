@@ -4,9 +4,9 @@ The public issue tracker for [Takumion](https://github.com/Takumion), a parametr
 
 ## Reporting a bug
 
-The easiest way is from inside the app: **Help → Known issues → Report a bug**. A report sent from the app can include your open project and the editor log; those stay private and only the people fixing the bug see them. The public issue here carries only the title, area, steps and app version.
+[Open an issue here](../../issues/new/choose). Please don't attach files you don't want to be public.
 
-You can also [open an issue here](../../issues/new/choose) directly. Please don't attach files you don't want to be public.
+Coming soon: reporting from inside the app (**Known issues** button → **Report a bug**). A report sent from the app can include your open project and the editor log; those stay private and only the people fixing the bug see them. The public issue here will carry only the title, area, steps and app version.
 
 Before reporting, search the [open issues](../../issues) — if yours is already there, add a 👍 to the issue instead of opening a new one.
 
@@ -24,4 +24,4 @@ Before reporting, search the [open issues](../../issues) — if yours is already
 | `status:wontfix` | Not planned |
 | `from-app` | Sent from the in-app report form |
 
-The app's **Known issues** list is read from this repository.
+The app's **Known issues** list will be read from this repository.
