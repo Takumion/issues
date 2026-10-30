@@ -1,0 +1,50 @@
+name: Bug report
+description: Something in Takumion does not work as it should
+labels: ["type:bug", "status:open"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. Search the open issues first — if it's already there, add a 👍 instead.
+        Anything you put here is public. To send your project file privately, use **Help → Known issues → Report a bug** in the app.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options: [Sketch, Create, Modify, Viewport, Scripting, Files, Other]
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open …
+        2. Click …
+        3. See …
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: What happened instead
+      description: Screenshots or a short screen recording help a lot.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Takumion version
+      description: Help → About
+      placeholder: e.g. 0.1.0
+  - type: input
+    id: platform
+    attributes:
+      label: Platform
+      placeholder: e.g. Chrome 130 on Windows 11 / desktop app on macOS

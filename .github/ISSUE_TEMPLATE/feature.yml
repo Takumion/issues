@@ -1,0 +1,27 @@
+name: Feature request
+description: Suggest a new feature or an improvement
+labels: ["type:feature", "status:open"]
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options: [Sketch, Create, Modify, Viewport, Scripting, Files, Other]
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: The task or workflow, and what makes it hard today.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What would help?
+      description: How you'd like it to work. If another CAD app does it well, say which and how.
+  - type: textarea
+    id: workaround
+    attributes:
+      label: Workaround today
