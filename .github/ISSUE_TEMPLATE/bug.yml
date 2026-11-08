@@ -48,3 +48,14 @@ body:
     attributes:
       label: Platform
       placeholder: e.g. Chrome 130 on Windows 11 / desktop app on macOS
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Paste or drop pictures of the problem. Reports from the app attach a picture of the 3D view here.
+  - type: textarea
+    id: errors
+    attributes:
+      label: Recent errors
+      description: Filled in by the app when you report from it.
+      render: text
